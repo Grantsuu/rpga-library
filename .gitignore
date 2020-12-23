@@ -7,5 +7,8 @@
 #unignore .cs files in src folders in sub folders
 !**/src/*.cs
 
-# track our own .gitignore file too
+# track .gitignore
 !/*.gitignore
+
+# track readme,md
+!/README.md
