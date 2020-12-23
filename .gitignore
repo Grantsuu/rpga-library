@@ -1,0 +1,11 @@
+# ignore all
+*
+
+# unignore sub folders
+!**/
+
+#unignore .cs files in src folders in sub folders
+!**/src/*.cs
+
+# track our own .gitignore file too
+!/*.gitignore
