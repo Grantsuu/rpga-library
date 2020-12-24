@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace Rpga.Logging
 {
-	public class LogManager
+	public class LoggerManager
 	{
 		private class LogNode
 		{
@@ -29,14 +29,14 @@ namespace Rpga.Logging
 		private const String LogManagerName = "logmanager";
 
 		private List<LogNode> logNodes;
-		private List<LogSource> logSources;
+		//private List<LogSource> logSources;
 
-		public LogManager()
+		public LoggerManager()
 		{
 			LogSelf("Tracing is enabled");
 
 			logNodes = new List<LogNode>();
-			logSources = new List<LogSource>();
+			//logSources = new List<LogSource>();
 
 			try
 			{

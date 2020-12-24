@@ -1,5 +1,8 @@
 namespace Rpga.Logging
 {
+	/// <summary>
+	/// Available Logging levels
+	/// </summary>
 	public enum LogLevel
 	{
 		/// <summary>
