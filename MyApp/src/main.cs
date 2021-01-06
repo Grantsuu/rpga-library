@@ -7,8 +7,8 @@ class main
 	static void Main(string[] args)
 	{
 		Console.WriteLine("Hello World!");
-		Logger logger = new Logger(LogLevel.Trace);
-
+		Logger logger = new Logger(LogLevel.Trace, System.String.Empty);
+		
 		int i = 10;
 		int j = 25;
 
@@ -20,5 +20,7 @@ class main
 			"Value i: {0}",
 			i
 		);
+
+        logger.LogTrace("Trace without an exception. What does the null say?");
 	}
 }

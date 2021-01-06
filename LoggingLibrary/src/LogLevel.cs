@@ -27,7 +27,7 @@ namespace Rpga.Logging
 		/// Typically includes errors or conditions that don't cause the app 
 		/// to fail.
 		/// </summary>
-		Warn = 3,
+		Warning = 3,
 		/// <summary>
 		/// For errors and exceptions that cannot be handled.
 		/// These messages indicate a failure in the current operation or 
